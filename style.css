@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    width: 100%;
+    height: 560px;
+    background-color: #8fd6e1;
+}
+
+.mountain {
+    width: 60%;
+    position: absolute;
+    right: 20%;
+    bottom: 120px;
+}
+
+.cloud1 {
+    position: absolute;
+    width: 20%;
+    left: 70%;
+    top: 7%;
+}
+
+.cloud2 {
+    position: relative;
+    left: 10%;
+    width: 20%;
+    top: 37%;
+}
+
+h2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 4em;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.top img {
+    width: 10%;
+}
+
+.top {
+    margin-top: 9%;
+}
+
+.col {
+    position: absolute;
+    left: 40%;
+    bottom: 66%;
+}
+
+.foot a {
+    color: rgb(86, 56, 192);
+    text-decoration: none;
+}
+
+.q1 {
+    width: 5%;
+    position: relative;
+    left: 17%;
+    bottom: 170px;
+}
+
+.footer {
+    background-color: rgb(10, 187, 125);
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    border-bottom: 0;
+    height: 100px;
+}
+
+.q2 {
+    width: 3%;
+    position: relative;
+    left: 1%;
+    bottom: 40px;
+}
+
+@media all and (max-width: 500px) {
+    .mountain {
+        width: 60%;
+        position: absolute;
+        right: 20%;
+        bottom: 250px;
+    }
+    h3 {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    h4 {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .mountain {
+        width: 60%;
+        position: absolute;
+        right: 20%;
+        bottom: 250px;
+    }
+}
